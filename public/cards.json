@@ -27,6 +27,13 @@
       "url": "https://admin-astrologo.lcv.app.br",
       "icon": "🌌",
       "badge": "Autenticar"
+    },
+    {
+      "name": "Itaú Calculadora Admin",
+      "description": "Painel administrativo da calculadora de câmbio com controle operacional.",
+      "url": "https://admin-itau.lcv.app.br",
+      "icon": "🏦",
+      "badge": "Autenticar"
     }
   ]
 }
