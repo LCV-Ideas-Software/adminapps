@@ -1,5 +1,9 @@
+// Módulo: adminhub/public/app.js
+// Versão: v01.01.00
+// Descrição: Catálogo administrativo — carrega cards.json e renderiza cards com acesso restrito.
+
 const SAFE_PROTOCOLS = new Set(["https:"]);
-const APP_VERSION = "v01.0.0";
+const APP_VERSION = 'APP v01.01.00';
 
 /**
  * @param {string} url
