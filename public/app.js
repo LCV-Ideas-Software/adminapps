@@ -3,7 +3,7 @@
 // Descrição: Catálogo administrativo — carrega cards via API local (/api/config) com leitura direta no bigdata_db e fallback local.
 
 const SAFE_PROTOCOLS = new Set(["https:"]);
-const APP_VERSION = 'APP v01.04.01';
+const APP_VERSION = 'APP v01.04.02';
 const CONFIG_ENDPOINT = '/api/config';
 
 /**
