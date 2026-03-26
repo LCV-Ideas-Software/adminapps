@@ -1,5 +1,9 @@
 # Changelog — AdminHub
 
+## [v01.04.02] — 2026-03-26
+### Removido
+- **`_headers`**: arquivo removido — admins não precisam de CSP nem controles de cache (Cloudflare Access protege o app). Cache gerenciado nativamente pelo Cloudflare.
+
 ## [v01.04.01] — 2026-03-24
 ### Alterado
 - `public/_headers` atualizado para política CSP estável em runtime (`script-src` com `'unsafe-inline'`), eliminando dependência de hash inline volátil.
