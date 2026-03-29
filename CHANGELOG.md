@@ -1,5 +1,12 @@
 # Changelog — AdminHub
 
+## [v02.00.01] — 2026-03-29
+### Alterado
+- **CI/CD branch standardization**: workflow de deploy padronizado para publicar no branch `main` na Cloudflare Pages, com trigger GitHub em `main` e `concurrency.group` atualizado para `deploy-main`.
+
+### Controle de versão
+- `adminhub`: APP v02.00.00 → APP v02.00.01
+
 ## [v02.00.00] — 2026-03-28
 ### Migração Arquitetural Completa (React 19 + TypeScript + Vite)
 - **Stack**: migrado de HTML estático + JS vanilla + CSS para **React 19 + TypeScript 5.9 + Vite 8**.
