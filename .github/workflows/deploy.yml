@@ -24,14 +24,14 @@ jobs:
 
       - uses: actions/setup-node@v6.3.0
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
 
       - run: npm ci
 
       - run: npm run build
 
-      - run: npx wrangler@${WRANGLER_VERSION} pages deploy dist --project-name=adminapps --branch=production --commit-dirty=true
+      - run: npx wrangler@${WRANGLER_VERSION} pages deploy dist --project-name=adminapps --branch=main --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
