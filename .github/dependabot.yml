@@ -1,5 +1,5 @@
 # Módulo: .github/dependabot.yml (v3.0.0)
-# Nota: adminhub migrado para React 19 + TypeScript + Vite — dependências NPM ativas.
+# Nota: adminapps migrado para React 19 + TypeScript + Vite — dependências NPM ativas.
 version: 2
 updates:
   # ---------------------------------------------------------
