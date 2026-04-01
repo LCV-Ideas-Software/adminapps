@@ -1,0 +1,50 @@
+# AI Memory Log - adminapps
+
+## 2026-03-28 — AdminHub v02.00.00 — Migração Arquitetural Completa (React 19 + TypeScript + Vite)
+### Alterado (MAJOR)
+- **Stack**: migrado de HTML estático + JS vanilla + CSS para **React 19 + TypeScript 5.9 + Vite 8**.
+- **Componentização**: `public/app.js` + `public/index.html` decompostos em `src/App.tsx` + `src/types.ts` + `src/main.tsx`.
+- **CSS preservado**: design system tiptap.dev (Google Blue) portado 1:1 para `src/App.css`.
+- **Build**: 194KB JS (61KB gzip), 6.6KB CSS (2KB gzip), 16 módulos, <1s.
+- **Deploy**: `deploy.yml` com `setup-node` + `npm ci` + `npm run build`.
+- **Dependabot**: seção `npm` adicionada ao `dependabot.yml`.
+### Removido
+- `public/app.js`, `public/index.html`, `public/styles.css`.
+### Preservado
+- `functions/api/config.js`, `public/cards.json`, `public/favicon.svg`.
+### Controle de versão
+- `adminhub`: APP v01.05.00 → APP v02.00.00
+
+## 2026-03-26 — MTA-STS Admin v02.31.00 — UI/UX Redesign (tiptap.dev, Google Blue)
+
+### Design
+- **Tailwind CDN removido** — todo CSS convertido para vanilla com classes semânticas (~200 linhas).
+- Background: warm gray `#f5f4f4`. Card: sólido `#ffffff`, shadow `0 1px 3px`.
+- Botões: pill preto (`border-radius: 100px`) com hover Google Blue `#1a73e8`.
+- Inputs: `border-radius: 10px`, focus ring Google Blue.
+- Tipografia Inter com `letter-spacing: -0.02em` em headings.
+- Orbs sutis (opacity 0.20, blur 120px).
+
+### Favicon
+- SVG customizado (gear + monitor) em Google Blue `#1a73e8`.
+
+### Cleanup
+- **`API_SECRET_KEY`** removida do `.dev.vars` — zero referências no código (dead config). `CF_API_TOKEN` mantido (ativo em 4 functions).
+
+### Controle de versão
+- `mtasts-admin`: v02.30.00 → v02.31.00.
+
+## 2026-03-26 — AdminHub v01.05.00 + AppHub v03.04.00 — UI/UX Redesign (tiptap.dev, Google Blue)
+
+### Escopo
+- **Ambos apps** receberam redesign completo do CSS seguindo design language do tiptap.dev.
+- Paleta: violet/pink → Google Blue `#1a73e8`. Background: warm gray `#f5f4f4`. Texto: `#0d0d0d`.
+- Glassmorphism pesado removido → superfícies sólidas brancas com shadows `0 1px 3px`.
+- Hero/footer pill-shaped (100px radius). Cards 30px radius. Orbs mais sutis (opacity 0.25, blur 100px).
+- `Inter` via Google Fonts adicionada a ambos `index.html`.
+- Favicon admin SVG (gear+monitor) adicionado a ambos.
+- WCAG/eMAG: focus-visible `#1a73e8`, skip-link, reduced-motion, dark mode preservados.
+
+### Controle de versão
+- `adminhub`: v01.04.02 → v01.05.00.
+- `apphub`: v03.03.01 → v03.04.00.
