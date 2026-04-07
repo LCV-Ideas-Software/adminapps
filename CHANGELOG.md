@@ -1,5 +1,12 @@
 # Changelog — AdminHub
 
+## [v02.00.06] - 2026-04-07
+### Segurança
+- **Vite 8.0.3 → 8.0.7**: Correção de 3 CVEs de severidade alta/média.
+
+### Controle de versão
+- `adminapps`: APP v02.00.05 → APP v02.00.06
+
 ## [v02.00.05] - 2026-04-02
 ### Controle de versão
 - `adminapps`: APP v02.00.04 → APP v02.00.05
