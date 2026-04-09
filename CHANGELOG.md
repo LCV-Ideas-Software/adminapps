@@ -1,5 +1,12 @@
 # Changelog — AdminHub
 
+## [v02.00.07] - 2026-04-08
+### Corrigido
+- **Card URL Status Bar**: Restaurada funcionalidade que impede exibição da URL na barra de status do browser ao passar o mouse sobre os cards. Componente `Card` migrado de `<a href>` para `<div role="link">` com `onClick` via `window.open()`, mantendo acessibilidade (tabIndex, onKeyDown Enter/Space).
+
+### Controle de versão
+- `adminapps`: APP v02.00.06 → APP v02.00.07
+
 ## [v02.00.06] - 2026-04-07
 ### Segurança
 - **Vite 8.0.3 → 8.0.7**: Correção de 3 CVEs de severidade alta/média.
