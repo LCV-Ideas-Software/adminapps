@@ -15,6 +15,16 @@
 
 # AI Memory Log - adminapps
 
+## 2026-04-17 — AdminHub v02.00.10 (Pages observability rollback after GHA failure)
+### Escopo
+Hotfix de deploy no `adminapps` após o GitHub Actions confirmar que `observability` não é suportado em config de Cloudflare Pages.
+### Alterado
+- `wrangler.json` deixou de declarar `observability` por ser config de Pages.
+### Motivação
+- Restaurar o deploy do `adminapps` sem reintroduzir configuração inválida para Pages.
+### Versão
+- APP v02.00.09 → APP v02.00.10
+
 ## 2026-04-17 — AdminHub v02.00.09 (wrangler observability + traces)
 ### Escopo
 Padronização do baseline de observabilidade Cloudflare no `adminapps`.
