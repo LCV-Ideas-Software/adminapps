@@ -1,9 +1,10 @@
 # adminapps
 
-[![license: AGPL-3.0-or-later](https://img.shields.io/badge/license-AGPL--3.0-or-later-blue.svg)](./LICENSE)
+[![status: stable](https://img.shields.io/badge/status-stable-brightgreen.svg)](#status)
+[![version](https://img.shields.io/github/v/release/lcv-leo/adminapps.svg)](https://github.com/lcv-leo/adminapps/releases)
 [![runtime: Cloudflare Pages](https://img.shields.io/badge/runtime-Cloudflare%20Pages-orange.svg)](https://pages.cloudflare.com/)
 [![framework: React 19 + Vite 8](https://img.shields.io/badge/framework-React%2019%20%2B%20Vite%208-61dafb.svg)](https://react.dev/)
-[![D1 binding](https://img.shields.io/badge/storage-Cloudflare%20D1-blue.svg)](https://developers.cloudflare.com/d1/)
+[![license: AGPL-3.0-or-later](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](./LICENSE)
 
 React-based admin micro-modules running on Cloudflare Pages with a D1 backing store. Composable card-grid UI for compliance surfaces (license panel, third-party attribution).
 
