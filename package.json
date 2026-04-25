@@ -1,8 +1,21 @@
 {
   "name": "adminapps",
-  "private": true,
-  "version": "2.0.7",
+  "version": "2.0.10",
+  "description": "React-based admin micro-modules running on Cloudflare Pages with a D1 backing store. Composable card-grid UI for compliance surfaces (license panel, third-party attribution).",
+  "license": "AGPL-3.0-or-later",
+  "author": "Leonardo Cardozo Vargas (lcv-leo)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcv-leo/adminapps.git"
+  },
+  "homepage": "https://github.com/lcv-leo/adminapps#readme",
+  "bugs": {
+    "url": "https://github.com/lcv-leo/adminapps/issues"
+  },
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
