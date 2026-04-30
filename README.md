@@ -1,16 +1,27 @@
 <p align="center">
-  <img src=".github/assets/lcv-ideas-software-logo.svg" alt="LCV Ideas &amp; Software" width="220">
+  <img src=".github/assets/lcv-ideas-software-logo.svg" alt="LCV Ideas &amp; Software" width="520" />
 </p>
 
 # adminapps
 
 [![status: stable](https://img.shields.io/badge/status-stable-brightgreen.svg)](#status)
-[![version](https://img.shields.io/github/v/release/lcv-leo/adminapps.svg)](https://github.com/lcv-leo/adminapps/releases)
+[![version](https://img.shields.io/github/v/release/LCV-Ideas-Software/adminapps.svg)](https://github.com/LCV-Ideas-Software/adminapps/releases)
 [![runtime: Cloudflare Pages](https://img.shields.io/badge/runtime-Cloudflare%20Pages-orange.svg)](https://pages.cloudflare.com/)
 [![framework: React 19 + Vite 8](https://img.shields.io/badge/framework-React%2019%20%2B%20Vite%208-61dafb.svg)](https://react.dev/)
 [![license: AGPL-3.0-or-later](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](./LICENSE)
 
 React-based admin micro-modules running on Cloudflare Pages with a D1 backing store. Composable card-grid UI for compliance surfaces (license panel, third-party attribution).
+
+**Status.** Stable. Current release: **v02.00.12**. See [CHANGELOG.md](./CHANGELOG.md) for the full release history.
+
+The version history at a glance:
+
+| Release | Scope |
+|---|---|
+| **`v02.00.12`** | **README organizational standardization.** Adopted the shared repository README opening pattern, corrected public release and clone links to the organization, surfaced the top-level version-history table, and kept the GitHub Sponsors link on `lcv-leo` by explicit beneficiary decision. |
+| **`v02.00.11`** | **Pages modernization.** Migrated fully to the current GitHub Pages artifact-deployment model and enabled idempotent Pages setup for fresh clones/forks. |
+| **`v02.00.10`** | **Cloudflare Pages config fix.** Removed unsupported `observability` config from the Pages-side `wrangler.json` after runtime validation. |
+| **`v02.00.09`** | **Pre-modernization hardening.** Finalized the baseline immediately before the Pages and publication modernization sequence. |
 
 ## What it does
 
@@ -45,7 +56,7 @@ You will need:
 ### 1. Clone + install
 
 ```bash
-git clone https://github.com/lcv-leo/adminapps.git
+git clone https://github.com/LCV-Ideas-Software/adminapps.git
 cd adminapps
 npm ci
 ```
