@@ -4,15 +4,18 @@
 
 # adminapps
 
-[![status: stable](https://img.shields.io/badge/status-stable-brightgreen.svg)](#status)
+[![status: archived](https://img.shields.io/badge/status-archived-lightgrey.svg)](#status)
 [![version](https://img.shields.io/github/v/release/LCV-Ideas-Software/adminapps.svg)](https://github.com/LCV-Ideas-Software/adminapps/releases)
 [![runtime: Cloudflare Pages](https://img.shields.io/badge/runtime-Cloudflare%20Pages-orange.svg)](https://pages.cloudflare.com/)
 [![framework: React 19 + Vite 8](https://img.shields.io/badge/framework-React%2019%20%2B%20Vite%208-61dafb.svg)](https://react.dev/)
 [![license: AGPL-3.0-or-later](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](./LICENSE)
 
+> [!IMPORTANT]
+> **Archived / discontinued.** `adminapps` has been discontinued because all admin surfaces have been consolidated into [`admin-app`](https://github.com/LCV-Ideas-Software/admin-app). Continuing `adminapps` no longer makes operational sense.
+
 React-based admin micro-modules running on Cloudflare Pages with a D1 backing store. Composable card-grid UI for compliance surfaces (license panel, third-party attribution).
 
-**Status.** Stable. Current release: **v02.00.12**. See [CHANGELOG.md](./CHANGELOG.md) for the full release history.
+**Status.** Archived / discontinued. Final release: **v02.00.12**. See [CHANGELOG.md](./CHANGELOG.md) for the full release history.
 
 The version history at a glance:
 
